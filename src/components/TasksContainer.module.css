@@ -1,0 +1,36 @@
+.tasks-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.tasks-controller {
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tasks-created {
+  color: var(--blue);
+}
+
+.completed-tasks {
+  color: var(--purple);
+}
+
+.tasks-created strong,
+.completed-tasks strong {
+  margin-right: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.tasks-created span,
+.completed-tasks span {
+  padding: 0.125rem 0.5rem;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.75rem;
+  color: var(--gray-200);
+  background-color: var(--gray-500);
+}

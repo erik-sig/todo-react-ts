@@ -1,0 +1,51 @@
+.input {
+  margin-top: -1.6875rem;
+  height: 3.375rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.input input,
+button {
+  border: 0;
+  border-radius: 8px;
+}
+
+.input input {
+  background-color: var(--gray-500);
+  padding: 0rem 1rem;
+  width: 39.875rem;
+  outline-color: var(--purple-dark);
+  border: 1px solid var(--gray-700);
+  color: var(--gray-100);
+  outline: none;
+}
+
+.input input:focus {
+  border-color: var(--purple-dark);
+}
+
+.input button {
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  background-color: var(--blue-dark);
+  color: var(--gray-100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5.625rem;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.input button:hover {
+  background-color: var(--blue);
+}
+
+@media (max-width: 730px) {
+  .input button {
+    padding: 0rem 0.3rem;
+  }
+}
